@@ -1,0 +1,15 @@
+
+.card-body-skills{
+   background-color:var(--mediumpurple-color) ;
+   text-align: center;
+   width: max-content;
+   font-size:medium;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@media screen and (min-width:700px){
+   .card-body-skills{
+      width: 300px;
+   }
+}

@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root{
+  --black-color:#191919;
+  --white-color:#ffffff;
+  --darkpurple-color: rgb(97, 0, 97);
+  --mediumpurple-color: rgb(202, 162, 202);
+  --ligthpurple-color: rgb(130, 89, 169);
+  --blue-color: #8eacbe;
+}
+html{
+  background-color: var(--white-color);
+}
+
+/*---------studie and job---------*/
+.title-studie{
+  color: var(--blue-color);
+  text-align: center;
+  margin: 0.8em;
+}
+.studie-box{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--mediumpurple-color);
+  border-left: 3px solid var(--darkpurple-color);
+  border-right: 3px solid var(--darkpurple-color);
+  margin: 1.2em 2em;
+  padding: 0.5em 0;
+}
+.item-studie{
+  flex: 1 1 100px;
+  /*border: 3px  solid rgb(5, 238, 33);*/
+  margin: 0em 2em;
+  text-align: center;
+}
+.buton-studie, .button-studie-job{
+  background-color: var(--darkpurple-color);
+}
+.button-studie2{
+  background-color: var(--darkpurple-color);
+}
+.item-studie-studies{
+  color: var(--darkpurple-color);
+}

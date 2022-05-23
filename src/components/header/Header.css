@@ -1,0 +1,44 @@
+.container{
+    background-color: var(--blue-color);
+    margin: 1em auto;
+    padding: 0 0;
+    box-shadow: 2px 2px 4px rgb(1, 36, 112);
+    overflow: hidden;
+}
+.header-title{
+    color: var(--white-color);
+    text-shadow: 2px 2px 3px rgb(1, 36, 112);
+    font-size: 18pt;
+}
+.header-name{
+    animation: slidein 1s ease-in 3s reverse both running
+}
+.header-description{
+animation: slideinsecond 1s ease-in 3s reverse both running
+        }
+@keyframes slidein{
+0%{transform:translateX(0px);}
+100%{transform:translateX(270px)}
+}
+@keyframes slideinsecond{
+    0%{transform:translateX(0px);}
+    100%{transform:translateX(-270px)}
+    }
+
+@media screen and (min-width:700px){
+    .header-title{
+        font-size: 30pt;
+    }
+    .container{
+        margin: 1em auto;
+        
+    }
+    @keyframes slidein{
+        0%{transform:translateX(0);}
+        100%{transform:translateX(700px)}
+        }
+        @keyframes slideinsecond{
+            0%{transform:translateX(0px);}
+            100%{transform:translateX(-800px)}
+            }
+}

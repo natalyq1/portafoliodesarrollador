@@ -1,0 +1,17 @@
+.nav-link:hover{
+    color:var(--darkpurple-color)
+}
+i{
+    padding:0 .5em
+}.navbar{
+    padding:0
+}
+.nav-item{
+    border-radius:4px;padding:1em 2em
+}
+.nav-item:hover{
+    box-shadow:2px 2px 3px violet
+}
+.navbar-toggler-icon{
+    color:blue
+}
