@@ -9,7 +9,9 @@ function Study(){
     const params=useParams();
     const study=getStudies(parseInt(params.id));
     return(
-        <div>
+        
+        <html>
+            <div>
         <Header />
         <Navbar />
          
@@ -25,7 +27,7 @@ function Study(){
 
         <Footer />
         </div>
-       
+       </html>
     )
 }
 export default Study;

@@ -5,30 +5,30 @@ function Bodyskills(){
 <div>
 <h3 className="title-studie">Generales</h3>
 
-<div className="d-flex justify-content-around">
-  <div className="card-body card-body-skills mx-5 my-3 ">Inglés</div>
-  <div className="card-body card-body-skills mx-5 my-3 ">Herramientas ofimáticas</div>
+<div className="d-flex skills-prog">
+  <div className="card-body card-body-skills">Inglés</div>
+  <div className="card-body card-body-skills">Herramientas ofimáticas</div>
   
   </div>
   <h3 className="title-studie">Programación</h3>
 
-<div className="d-flex justify-content-around">
-  <div className="card-body card-body-skills mx-5 my-3 ">React</div>
-  <div className="card-body card-body-skills mx-5 my-3 ">HTML</div>
-  <div className="card-body card-body-skills mx-5 my-3 ">GitHub</div>
+<div className=" skills-prog d-flex">
+  <div className="card-body card-body-skills">React</div>
+  <div className="card-body card-body-skills">HTML</div>
+  <div className="card-body card-body-skills">GitHub</div>
   </div>
 
-<div className="d-flex justify-content-around">
+<div className="skills-prog d-flex">
 
-  <div className="card-body card-body-skills mx-5 my-3 ">JavaScript</div>
-  <div className="card-body card-body-skills mx-5 my-3 ">Visual Studio Code</div>
-  <div className="card-body card-body-skills mx-5 my-3 ">Git Bash</div>
+  <div className="card-body card-body-skills ">JavaScript</div>
+  <div className="card-body card-body-skills ">Visual Studio Code</div>
+  <div className="card-body card-body-skills">Git Bash</div>
   </div>
 
-<div className="d-flex justify-content-around mb-4">
-  <div className="card-body card-body-skills mx-5 my-3 ">Figma</div>
-  <div className="card-body card-body-skills mx-5 my-3 ">Bootstrap</div>
-  <div className="card-body card-body-skills mx-5 my-3  ">CSS</div>
+<div className="skills-prog d-flex">
+  <div className="card-body card-body-skills">Figma</div>
+  <div className="card-body card-body-skills">Bootstrap</div>
+  <div className="card-body card-body-skills">CSS</div>
 </div>
 </div>
 );

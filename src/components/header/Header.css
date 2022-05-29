@@ -1,9 +1,10 @@
 .container{
-    background-color: var(--blue-color);
-    margin: 1em auto;
-    padding: 0 0;
-    box-shadow: 2px 2px 4px rgb(1, 36, 112);
-    overflow: hidden;
+    border-radius: 28px;
+background: #d9b5d6;
+box-shadow:  14px 14px 28px #520c52,
+             -14px -14px 28px #ae91ab;
+             margin: 1em auto;
+             width:270px;
 }
 .header-title{
     color: var(--white-color);
@@ -18,11 +19,26 @@ animation: slideinsecond 1s ease-in 3s reverse both running
         }
 @keyframes slidein{
 0%{transform:translateX(0px);}
-100%{transform:translateX(270px)}
+100%{transform:translateX(360px)}
 }
 @keyframes slideinsecond{
     0%{transform:translateX(0px);}
-    100%{transform:translateX(-270px)}
+    100%{transform:translateX(-360px)}
+    }
+
+    @media screen and (min-width:400px){
+        .container{
+            margin: 1em auto;
+                 width:85%;
+        }  
+        @keyframes slidein{
+            0%{transform:translateX(0px);}
+            100%{transform:translateX(460px)}
+            }
+            @keyframes slideinsecond{
+                0%{transform:translateX(0px);}
+                100%{transform:translateX(-460px)}
+                }
     }
 
 @media screen and (min-width:700px){
@@ -31,7 +47,7 @@ animation: slideinsecond 1s ease-in 3s reverse both running
     }
     .container{
         margin: 1em auto;
-        
+             width:100%;
     }
     @keyframes slidein{
         0%{transform:translateX(0);}

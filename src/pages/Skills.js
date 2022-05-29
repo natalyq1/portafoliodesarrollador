@@ -5,6 +5,7 @@ import Footer from "../components/footer/Footer";
 import Bodyskills from "../components/skills/Skills";
 function Skills(){
     return(
+        <html>
         <div>
             
             <Header />
@@ -13,6 +14,7 @@ function Skills(){
             <Footer />
             
         </div>
+        </html>
     )
 }
 export default Skills;

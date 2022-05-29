@@ -8,6 +8,7 @@ import '../index.css';
 function Jobs(){
     const jobs=getAllJobs();
     return(
+        <html>
         <div>
             <Header />
             <Navbar />
@@ -27,10 +28,12 @@ function Jobs(){
             </button>
             </div>
         </div>
+        
         )}
 
 <Footer />
         </div>
+        </html>
     )
 }
 

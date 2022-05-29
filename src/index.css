@@ -18,15 +18,19 @@ code {
   --darkpurple-color: rgb(97, 0, 97);
   --mediumpurple-color: rgb(202, 162, 202);
   --ligthpurple-color: rgb(130, 89, 169);
-  --blue-color: #8eacbe;
+  --blue-color: #9bc8e3;
 }
 html{
-  background-color: var(--white-color);
+  background: rgb(0,123,128);
+  background: linear-gradient(90deg, rgba(0,123,128,0.7122199221485469) 0%, rgba(148,78,184,0.7906512946975666) 56%, rgba(225,138,236,0.7122199221485469) 100%);
+  overflow:auto;
+  margin: 0;
+  padding: 0;
 }
-
 /*---------studie and job---------*/
 .title-studie{
   color: var(--blue-color);
+  text-shadow: 2px 2px 3px rgb(51, 0, 83);
   text-align: center;
   margin: 0.8em;
 }
@@ -50,6 +54,9 @@ html{
 }
 .button-studie2{
   background-color: var(--darkpurple-color);
+}
+.button-studie2:hover, .button-studie-job:hover{
+  background-color: var(--blue-color);
 }
 .item-studie-studies{
   color: var(--darkpurple-color);

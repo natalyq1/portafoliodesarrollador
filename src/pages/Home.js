@@ -4,6 +4,7 @@ import Footer from "../components/footer/Footer";
 import Bodyhome from "../components/bodyhome/Bodyhome";
 function Home(){
     return(
+        <html>
         <div>
             
             <Header />
@@ -12,6 +13,7 @@ function Home(){
             <Footer />
             
         </div>
+        </html>
     )
 }
 export default Home;

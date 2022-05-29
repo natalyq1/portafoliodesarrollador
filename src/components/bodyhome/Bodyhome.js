@@ -4,8 +4,8 @@ import Profilepic from'./profile-pic.png';
 function Bodyhome(){
     return(
 
-<div className="card-body card-body-home  mx-5 my-5 ">
-<img className='image-card-body' src={Profilepic} width="300"/>
+<div className="card-body card-body-home ">
+<img className='image-card-body' src={Profilepic}/>
   Desarrolladora web con énfasis en Front-end. Experiencia como 
 maestra de dibujo y pintura e idioma ingles a distintas edades. 
 Asistente en una galería de arte con labores administrativas, manejo de 

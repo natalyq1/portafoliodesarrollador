@@ -4,7 +4,7 @@ function Header(){
     return(
 
 <header>
-<div className="container py-3 px-3">
+<div className="container">
   <div className="row">
     <div className="col">
      <div className="header-name header-title p-3  ">Maria Nataly Quiroga Olaya</div>

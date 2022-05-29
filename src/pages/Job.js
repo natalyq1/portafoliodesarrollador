@@ -8,6 +8,7 @@ function Job(){
     const params=useParams();
     const job=getJobs(parseInt(params.id));
     return(
+        <html>
         <div>
         <Header />
         <Navbar />
@@ -28,7 +29,7 @@ function Job(){
 
          <Footer />
          </div>
-       
+       </html>
     )
 }
 export default Job;

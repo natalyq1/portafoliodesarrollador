@@ -8,8 +8,17 @@
    align-items: center;
    justify-content: center;
 }
+.skills-prog{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 @media screen and (min-width:700px){
    .card-body-skills{
       width: 300px;
+      margin: 2em 4em;
+   }
+   .skills-prog{
+      flex-direction: row;
    }
 }

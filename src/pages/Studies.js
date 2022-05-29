@@ -8,7 +8,7 @@ import '../index.css';
 function Studies(){
     const studies=getAllStudies();
     return(
-        <div>
+        <html>
            <Header />
             <Navbar />
             <h3 className="title-studie">Estudios</h3>
@@ -30,7 +30,7 @@ function Studies(){
         )}
 
 <Footer />
-        </div>
+        </html>
     )
 }
 export default Studies;
