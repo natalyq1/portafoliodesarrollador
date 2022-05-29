@@ -3,27 +3,39 @@
     color: var(--darkpurple-color);
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0.7em 0;
+    
 }
-.nav-link, a{
+.nav-link{
     color: aliceblue;
     text-decoration: none;
-    padding: 0 3em;
+    
 }
-.nav-link:hover, a:hover{
-    color: var(--darkpurple-color);
-}
-.icon{
-    padding: 0 0.5em;
+a{
+    text-decoration: none;
+    
+    color: var(--white-color);
 }
 .navbar{
     background-color: var(--lightpurple--color);
 }
-a{
-    margin: 0;
+.nav-item-footer{
+    margin: 0em 1em;
     padding: 0;
+    width: max-content;
+    justify-content: center;
+}
+
+@media screen and (min-width:700px){
     
+    .nav-link:hover, a:hover{
+    color: var(--darkpurple-color);
+}
+.nav-item-footer{
+    margin: 0.7em 2em;
+    padding: 0.2em 2em;
+    width: max-content;
+    justify-content: center;
+}
 }

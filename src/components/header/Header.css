@@ -3,7 +3,7 @@
 background: #d9b5d6;
 box-shadow:  14px 14px 28px #520c52,
              -14px -14px 28px #ae91ab;
-             margin: 1em auto;
+             margin: 1.5em auto;
              width:270px;
 }
 .header-title{
@@ -12,10 +12,10 @@ box-shadow:  14px 14px 28px #520c52,
     font-size: 18pt;
 }
 .header-name{
-    animation: slidein 1s ease-in 3s reverse both running
+    animation: slidein 1s ease-in 1s reverse both running
 }
 .header-description{
-animation: slideinsecond 1s ease-in 3s reverse both running
+animation: slideinsecond 1s ease-in 1s reverse both running
         }
 @keyframes slidein{
 0%{transform:translateX(0px);}
@@ -46,9 +46,10 @@ animation: slideinsecond 1s ease-in 3s reverse both running
         font-size: 30pt;
     }
     .container{
-        margin: 1em auto;
+        margin: 1em auto 2.3em auto;
              width:100%;
     }
+   
     @keyframes slidein{
         0%{transform:translateX(0);}
         100%{transform:translateX(700px)}

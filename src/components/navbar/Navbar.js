@@ -4,29 +4,30 @@ function Navbar(){
     return(
       
 
-<nav class="nav ">
+<nav class="nav navbar ">
   
-   
-        <section className="nav-item color-change-2x">
-          <Link to="/" className="nav-link active" aria-current="page">
-            <i className="fa-solid fa-house"></i> Inicio
-                </Link>
-        </section>
-        <section className="nav-item color-change-2x">
-        <Link to="/studies" className="nav-link active" aria-current="page" >
+<Link to="/" className="nav-link active" aria-current="page">
+        <section className="nav-item-navbar nav-item color-change-2x">
+                <i className="fa-solid fa-house"></i> Inicio
+         </section>       
+</Link>
+        
+<Link to="/studies" className="nav-link active" aria-current="page" >
+        <section className="nav-item-navbar nav-item color-change-2x">
                 <i className="fa-solid fa-building-columns"></i> Estudios
-                </Link>
-        </section>
-        <section className="nav-item color-change-2x">
-        <Link to="/jobs" className="nav-link active" aria-current="page" >
+        </section>        
+</Link>
+<Link to="/jobs" className="nav-link active" aria-current="page" >
+        <section className="nav-item-navbar nav-item color-change-2x">
                 <i className="fa-solid fa-briefcase"></i> Laboral
-                </Link>
-        </section>
-        <section className="nav-item color-change-2x">
-        <Link to="/skills" className="nav-link active" aria-current="page" >
+        </section>        
+</Link>
+        
+<Link to="/skills" className="nav-link active" aria-current="page" >
+        <section className="nav-item-navbar nav-item color-change-2x">
                 <i className="fa-solid fa-network-wired"></i> Habilidades
-                </Link>
-        </section>
+        </section>        
+</Link>
       
     
  

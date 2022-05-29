@@ -17,12 +17,12 @@ code {
   --white-color:#ffffff;
   --darkpurple-color: rgb(97, 0, 97);
   --mediumpurple-color: rgb(202, 162, 202);
-  --ligthpurple-color: rgb(130, 89, 169);
+  --ligthpurple-color: rgba(115, 31, 146, 0.726);
   --blue-color: #9bc8e3;
 }
 html{
   background: rgb(0,123,128);
-  background: linear-gradient(90deg, rgba(0,123,128,0.7122199221485469) 0%, rgba(148,78,184,0.7906512946975666) 56%, rgba(225,138,236,0.7122199221485469) 100%);
+  background: linear-gradient(132deg, rgba(0,123,128,0.7122199221485469) 9%, rgba(148,78,184,0.7906512946975666) 56%, rgba(225,138,236,0.7122199221485469) 96%);
   overflow:auto;
   margin: 0;
   padding: 0;
